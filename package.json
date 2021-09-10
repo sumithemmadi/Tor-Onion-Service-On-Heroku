@@ -1,0 +1,30 @@
+{
+  "name": "Tor-Onion-Service-On-Heroku",
+  "version": "1.0.0",
+  "description": "Host tor onion services in dark web using heroku",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sphp": "^0.6.3"
+  },
+  "scripts": {
+    "test": "node server.js | bash start_tor.sh",
+    "start": "node server.js | bash start_tor.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku.git"
+  },
+  "keywords": [
+    "tor",
+    "onion",
+    "heroku",
+    "server"
+  ],
+  "author": "sumithemmadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku/issues"
+  },
+  "homepage": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku#readme"
+}
