@@ -1,7 +1,7 @@
-## Tor v3 Hidden Service On Heroku
+## Tor Onion Service On Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
-Host Tor v3 Hidden Service in dark web using heroku
+Host Tor v3   Onion Service in dark web using heroku
 
 <!--
 ![IMG_20210822_194228.jpg](IMG_20210822_194228.jpg)
@@ -12,7 +12,7 @@ Host Tor v3 Hidden Service in dark web using heroku
 - 1 . To  host your website in dark web  with one click and run server on heroku.
 - 2 . Click below `Deploy to Heroku` Button.
 
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/tor-v3-hidden-service-on-heroku)
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
     >  _Note : Deploy with  heroku Deploy  button will host a demo webpage, you  can not use your html file.To host your own webpage goto  <b>[Manually Deploy to Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku/blob/main/README.md#manually-deploy-to-heroku)
 </b> Session_
 - 3 . You will be navigated to [Heroku Dashboard](https://dashboard.heroku.com). Enter app name in `App name` field and click `Deploy app` button.
@@ -52,8 +52,8 @@ heroku login
 
 - 2 . Clone this repository with below command
 ```bash
-git clone https://github.com/sumithemmadi/tor-v3-hidden-service-on-heroku.git
-cd tor-v3-hidden-service-on-heroku
+git clone https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku.git
+cd Tor-Onion-Service-On-Heroku
 ```
 - 3 . Create a heroku application
 ```bash
@@ -90,7 +90,7 @@ heroku buildpacks:set heroku/php
 
 - Sometimes adding 2nd buildpack will remove 1st one (or) adding 3rd buildpack will remove 2nd one ,try adding all three buildpacks again and again one by one untill you see three buildpacks added as shown in below picture.
 
-![image](https://raw.githubusercontent.com/sumithemmadi/tor-v3-hidden-service-on-heroku/gh-pages/images/builtpack.jpg)
+![image](https://raw.githubusercontent.com/sumithemmadi/Tor-Onion-Service-On-Heroku/gh-pages/images/builtpack.jpg)
 - 6 . Copy your website file's to the folder `site` <br>
       eg :- index.html,index.php [default=index.html]
 
@@ -107,7 +107,7 @@ heroku buildpacks:set heroku/php
 - 8 . Deploy your changes to heroku
 ```bash
 git add .
-git commit -am "Updated link"
+git commit -am "Updated"
 git push heroku
 ```
 
@@ -118,11 +118,11 @@ git push heroku
 ```bash
 heroku run cat temp/var/lib/tor/hidden_service/hostname
 ```
-![Image](https://raw.githubusercontent.com/sumithemmadi/tor-v3-hidden-service-on-heroku/gh-pages/images/hostname.jpg)
+![Image](https://raw.githubusercontent.com/sumithemmadi/Tor-Onion-Service-On-Heroku/gh-pages/images/hostname.jpg)
 ## Get onion link on heroku app
 -  If you still can't find your .onion link. <br> Open your heroku app <br>`https://App-Name.herokuapp.com` and click on `show my .onion link`.
    > _Note : Due to herokus policies, a single web dyno is sent to sleep after 30 minutes of inactivity. This means if your application has not served any requests for 30 minutes, it is forced to sleep by heroku and has to wake up prior to serve a new request, which easily can take up to 30–40 seconds. Generally free dynos will sleep (shut down) after 30 minutes of inactivity. This is actually a feature to avoid using up your free dyno hours. To prevent Heroku app from idling add [New Relic add-on](https://elements.heroku.com/addons/newrelic). It has an availability monitor feature that will ping your site twice per minute, thus preventing the dyno from idling (Or) add  [Uptimerobot](https://uptimerobot.com/) it is free and offers 5 min interval site checking._
 
 -  Here is my app 
     **[https://tor-onion.herokuapp.com/](https://tor-onion.herokuapp.com/)**
-<img src="https://sumith-onion.000webhostapp.com/home.php?w=100&repo=Tor-v3-Hidden-Service-On-Heroku&branch=main">
+<img src="https://sumith-onion.000webhostapp.com/home.php?w=100&repo=Tor-Onion-Service-On-Heroku&branch=main">
