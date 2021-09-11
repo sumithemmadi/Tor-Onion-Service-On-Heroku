@@ -32,7 +32,7 @@
           <?php
           if (file_exists('../temp/var/lib/tor/hidden_service/hostname')) {
               $output = shell_exec('cat ../temp/var/lib/tor/hidden_service/hostname');
-              echo "Congratulation your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
+              echo "Congratulation 💐<br>Your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong<br>Refer to  Github Repository <br><a href="https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku#readme">https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku#readme</a></p>';
@@ -43,8 +43,8 @@
     </section>
     <section id="boxes">
       <div class="container">
-        <h2><b>Another Repo Build with Nodejs</b></h2>
-        <p> <b>Try my another  GitHub Repository built with nodejs <a href=https://github.com/sumithemmadi/tor-v3-hidden-service-on-heroku>https://github.com/sumithemmadi/tor-v3-hidden-service-on-heroku</a>
+        <h2><b>Another Repo Build with php and apache2</b></h2>
+        <p> <b>Try my another  GitHub Repository <a href=https://github.com/sumithemmadi/tor-hidden-service-on-heroku>https://github.com/sumithemmadi/tor-hidden-service-on-heroku</a>
       </div>
     </section>
     <footer>
