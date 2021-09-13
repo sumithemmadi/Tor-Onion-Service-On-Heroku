@@ -12,7 +12,7 @@
   "env": {},
   "website": "https://sumithemmadi.github.io/Tor-Onion-Service-On-Heroku",
   "repository": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku",
-  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiwdhzG4NDtmTz5rs83HI_4sE_8FtUHuGXw&usqp=CAU",
+  "logo": "https://raw.githubusercontent.com/sumithemmadi/Tor-Onion-Service-On-Heroku/main/site/img/favicon.png",
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs"
