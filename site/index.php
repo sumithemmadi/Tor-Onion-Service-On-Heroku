@@ -30,8 +30,8 @@
       <div class="container">
           <h2><b>Onion Link</b></h2>
           <?php
-          if (file_exists('../temp/var/lib/tor/hidden_service/hostname')) {
-              $output = shell_exec('cat ../temp/var/lib/tor/hidden_service/hostname');
+          if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
+              $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
               echo "Congratulation 💐<br>Your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
           } else {
               $output = "No domain";
