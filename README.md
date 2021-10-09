@@ -122,4 +122,3 @@ heroku run cat temp/var/lib/tor/hidden_service/hostname
 
 -  Here is my app 
     **[https://tor-onion.herokuapp.com/](https://tor-onion.herokuapp.com/)**
-<img src="https://sumith-onion.000webhostapp.com/home.php?w=100&repo=Tor-Onion-Service-On-Heroku&branch=main">
