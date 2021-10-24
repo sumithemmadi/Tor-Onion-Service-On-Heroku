@@ -4,7 +4,7 @@
 
 Host Tor v3 Hidden Service in dark web using heroku
 
-> Try my another repository built with nodejs  https://github.com/sumithemmadi/tor-hidden-service-on-heroku/
+Try my another repository built with php   https://github.com/sumithemmadi/tor-hidden-service-on-heroku/
 
 
 ## Ouick Deploy to heroku
