@@ -5,6 +5,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0.2-blue)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 [![Licence](https://img.shields.io/github/license/sumithemmadi/Tor-Onion-Service-On-Heroku)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 [![issues](https://img.shields.io/github/issues/sumithemmadi/Tor-Onion-Service-On-Heroku)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
+[![stars](https://img.shields.io/github/stars/sumithemmadi/Tor-Onion-Service-On-Heroku)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 
 Host Tor v3 Hidden Service in dark web using heroku
 
