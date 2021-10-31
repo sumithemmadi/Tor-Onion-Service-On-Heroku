@@ -14,7 +14,7 @@ Try my another repository built with php   https://github.com/sumithemmadi/tor-h
 
 ## Ouick Deploy to heroku
 - 1 . To  host your website in dark web  with one click and run server on heroku.
-- 2 . Click below `Deploy to Heroku` Button.
+- 2 . Click below `Deploy to Heroku` button.
 
    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
     >  _Note : Deploy with  heroku Deploy  button will host a demo webpage, you  can not use your html file.To host your own webpage goto  <b>[Manually Deploy to Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku/blob/main/README.md#manually-deploy-to-heroku)
