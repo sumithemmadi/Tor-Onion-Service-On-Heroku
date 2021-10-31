@@ -2,6 +2,9 @@
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsumithemmadi%2FTor-Onion-Service-On-Heroku.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsumithemmadi%2FTor-Onion-Service-On-Heroku?ref=badge_shield)
+[![Version](https://img.shields.io/badge/Version-1.0.2-blue)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
+[![Licence](https://img.shields.io/github/license/sumithemmadi/Tor-Onion-Service-On-Heroku)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
+[![issues](https://img.shields.io/github/issues/sumithemmadi/Tor-Onion-Service-On-Heroku)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 
 Host Tor v3 Hidden Service in dark web using heroku
 
