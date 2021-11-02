@@ -1,1 +1,13 @@
-{}
+{
+    "name": "sumithemmadi/tor-onion-service-on-heroku",
+    "description": "Host Onion services in dark web using Heroku CLI",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sumithemmadi",
+            "email": "sumithemmadi244@gmail.com"
+        }
+    ],
+    "require": {}
+}

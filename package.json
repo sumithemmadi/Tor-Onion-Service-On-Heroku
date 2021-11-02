@@ -1,6 +1,6 @@
 {
   "name": "Tor-Onion-Service-On-Heroku",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Host tor onion services in dark web using heroku",
   "main": "server.js",
   "dependencies": {
