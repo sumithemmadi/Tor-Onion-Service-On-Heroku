@@ -52,7 +52,7 @@ heroku login
 
 ### Quick Start
 
-- 1 . Create a new project, for example in my case  `Project` and go to that Dictionary.
+- 1 . Create a new project, for example in my case  `Project` and go to that directory.
 
 - 2 . Clone this repository with below command
 ```bash
