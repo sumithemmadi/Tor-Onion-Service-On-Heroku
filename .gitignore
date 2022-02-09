@@ -4,3 +4,7 @@
 package-lock.json
 
 node_modules/
+
+temp/var/lib/tor/hidden_service/
+
+temp/etc/tor/torrc/

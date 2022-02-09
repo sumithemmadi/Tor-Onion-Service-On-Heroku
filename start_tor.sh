@@ -31,6 +31,7 @@ then
 else
     echo -e "Ok, starting tor with $PORT \n\n"
 fi
-echo "HiddenServiceDir ./temp/var/lib/tor/hidden_service" >> ./temp/etc/tor/torrc
-echo "HiddenServicePort 80 127.0.0.1:$PORT" >> ./temp/etc/tor/torrc
-tor -f ./temp/etc/tor/torrc
+echo "HiddenServiceDir $PWD/temp/var/lib/tor/hidden_service" >> $PWD/temp/etc/tor/torrc
+echo "HiddenServicePort 80 127.0.0.1:$PORT" >> $PWD/temp/etc/tor/torrc
+chmod 700 $PWD/temp/var/lib/tor/hidden_service
+tor -f $PWD/temp/etc/tor/torrc
