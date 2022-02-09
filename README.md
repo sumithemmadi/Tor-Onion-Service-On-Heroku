@@ -12,7 +12,7 @@ Host Tor v3 Hidden Service in dark web using heroku
 Try my another repository built with php   https://github.com/sumithemmadi/tor-hidden-service-on-heroku/
 
 
-## Ouick Deploy to heroku
+<!-- ## Ouick Deploy to heroku
 - 1 . To  host your website in dark web  with one click and run server on heroku.
 - 2 . Click below `Deploy to Heroku` button.
 
@@ -24,7 +24,9 @@ Try my another repository built with php   https://github.com/sumithemmadi/tor-h
     > _Note :- Since,heroku has an ephemerals file system that is destroyed every time when your app restart's.so your application will generate a new .onion link everytime when your app restarts.To use your custom permanent onion link  go down to [Manually Deploy to Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku/blob/main/README.md#manually-deploy-to-heroku)._
 - 5 . To  know you .onion address [click here](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku#get-onion-link-on-heroku-app)
 
-## Manually Deploy to Heroku
+ -->
+ 
+## Deploy to Heroku
 
 ### Prerequisites
 
