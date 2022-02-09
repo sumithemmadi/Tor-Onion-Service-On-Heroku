@@ -1,10 +1,11 @@
 
-/vendor/
+vendor/
 
 package-lock.json
 
 node_modules/
 
-temp/var/lib/tor/hidden_service/
-
+temp/var/lib/tor/hidden_service/hostname
+temp/var/lib/tor/hidden_service/hs_ed25519_public_key
+temp/var/lib/tor/hidden_service/hs_ed25519_secret_key
 temp/etc/tor/torrc/
