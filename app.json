@@ -5,13 +5,16 @@
     "onion-service",
     "hidden-service",
     "tor",
-    "heroku tor"
+    "heroku",
+    "heroku",
+    "anonynous",
+    "dark",
+    "web"
   ],
   "addons": [],
   "author": "sumithemmadi",
   "env": {},
-  "website": "https://sumithemmadi.github.io/Tor-Onion-Service-On-Heroku",
-  "repository": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku",
+  "repository": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku.git",
   "logo": "https://raw.githubusercontent.com/sumithemmadi/Tor-Onion-Service-On-Heroku/main/site/img/favicon.png",
   "buildpacks": [
     {

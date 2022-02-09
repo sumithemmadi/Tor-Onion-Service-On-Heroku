@@ -1,5 +1,5 @@
 {
-  "name": "Tor-Onion-Service-On-Heroku",
+  "name": "tor-onion-service-on-heroku",
   "version": "1.0.3",
   "description": "Host tor onion services in dark web using heroku",
   "main": "server.js",
